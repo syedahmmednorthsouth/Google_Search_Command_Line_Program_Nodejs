@@ -141,22 +141,15 @@ const requestWithAxios = (searchString) => {
 
             const result = JSON.stringify(final_json, null, 2);
 
-            fileSave(result, searchString);
+
 
             console.log("====================================")
 
             console.log(result)
 
+            console.log("====================================")
 
-
-
-
-
-
-
-
-
-
+            fileSave(result, searchString);
 
 
         })
@@ -167,9 +160,6 @@ const requestWithAxios = (searchString) => {
                 console.log('The error is: ' + e)
             }
         });
-
-
-
 }
 
 
