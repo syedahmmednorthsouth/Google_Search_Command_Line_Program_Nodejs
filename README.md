@@ -4,11 +4,32 @@ A command-line google search program made with  node.js
 
 ## Features
 
-* prompts the user for input
-* supports validation and defaults
-* hides passwords
+The program will query Google with the argument and store the search results from the first page
+as a JSON file in a directory called database.
+Each query will create its own JSON file in the database directory.
+Each JSON file will contain the following metadata about the search results:
+- The number of results
+- The number of results that are video links
+- The number of results that are social media links (Links to twitter.com, facebook.com,
+instagram.com, linkedIn.com, Reddit.com)
+- Time taken for the response
+Each JSON file will also contain the list of responses grouped by category (Website, Social
+Media, Video):
 
-## Usage
+## Installation
+
+1. Clone the  repo
+
+``` cmd
+  $ git clone https://github.com/syedahmmednorthsouth/Google_Search_Command_Line_Program_Nodjs.git
+```
+
+
+2. install dependencies with npm
+
+``` cmd
+  $ npm install 
+```
 
 
 ## Result
