@@ -1,21 +1,4 @@
-# Google_Search_Command_Line_Program_Nodjs
-
-A command-line google search program made with  node.js
-
-## Features
-
-* prompts the user for input
-* supports validation and defaults
-* hides passwords
-
-## Usage
-
-
-## Result
-
-
-``` json
- {
+{
   "queryString": "youtube api pricing",
   "PageOneResultCount": 19,
   "PageOneVideoResutlCount": 3,
@@ -171,4 +154,3 @@ A command-line google search program made with  node.js
     ]
   }
 }
-```
