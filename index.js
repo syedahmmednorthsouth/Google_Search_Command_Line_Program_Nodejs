@@ -154,11 +154,8 @@ const requestWithAxios = (searchString) => {
 
         })
         .catch((e) => {
-            if (e.response.status === 429) {
-                console.log('Google sometimes block the request please try again for a few times within minutes.The error is: (' + e + ')')
-            } else {
-                console.log('The error is: ' + e)
-            }
+            console.log('google sometime block automated request . please try again after few moments . The error is ' + e)
+
         });
 }
 
