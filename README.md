@@ -25,10 +25,16 @@ Media, Video):
 ```
 
 
-2. install dependencies with npm
+2. After changing directory to project root and install dependencies with npm
 
 ``` cmd
   $ npm install 
+```
+
+3. Search a google query with the command like
+
+``` cmd
+  $ node index.js youtube api pricing
 ```
 
 
