@@ -33,6 +33,66 @@ const requestWithAxios = (searchString) => {
         .then(function ({ data }) {
             let $ = cheerio.load(data);
 
+            let final_json = {};
+
+            final_json.queryString = searchString;
+
+            //decrlaring temporay variable to hold webpage , social media , 
+            let webpages_temp = [];
+            let social_media_temp = [];
+            let videos_temp = [];
+
+            //declaring counter variable
+            let webpage_count = 0;
+            let social_count = 0;
+            let video_count = 0;
+
+
+
+
+            //Retrieve Web url , title and preprocess the data
+
+            $(".UK95Uc").each((i, elm) => {
+                let title = $(elm).find('.DKV0Md').text();
+                let url = $(elm).find('a').attr('href');
+                let website = $(elm).find('cite').first().text().split(' ')[0];
+                if (title != '' && url != '') {
+                    if (website.match(/(?:instragram|linkedin|facebook|reddit|twitte)\.com/)) {
+                        let social_media_details = {
+                            Title: title,
+                            URL: url,
+                            Website: website
+                        }
+
+                        if (social_media_details) {
+                            social_count++;
+                        }
+
+                        social_media_temp.push(social_media_details);
+                    } else {
+                        let webpage_details = {
+                            Title: title,
+                            Url: url,
+                            Website: website
+                        }
+
+                        if (webpage_details) {
+                            webpage_count++;
+                        }
+
+                        webpages_temp.push(webpage_details);
+                    }
+                }
+            })
+
+
+
+
+
+
+
+
+
 
 
         })
