@@ -1,0 +1,136 @@
+{
+  "queryString": "hello",
+  "PageOneResultCount": 17,
+  "PageOneVideoResutlCount": 3,
+  "pageOneSocialMediaCount": 0,
+  "result": {
+    "Social_Media": [],
+    "Webpages": [
+      {
+        "Website": "https://www.hellomagazine.com",
+        "result": [
+          {
+            "Title": "HELLO! US Edition - Latest news and Photos",
+            "Url": "https://www.hellomagazine.com/us/",
+            "Website": "https://www.hellomagazine.com"
+          },
+          {
+            "Title": "HELLO! US Edition - Latest news and Photos",
+            "Url": "https://www.hellomagazine.com/us/",
+            "Website": "https://www.hellomagazine.com"
+          }
+        ]
+      },
+      {
+        "Website": "https://www.hellofresh.com",
+        "result": [
+          {
+            "Title": "HelloFresh: Fresh Food & Meal Kit Delivery Service",
+            "Url": "https://www.hellofresh.com/",
+            "Website": "https://www.hellofresh.com"
+          },
+          {
+            "Title": "HelloFresh: Fresh Food & Meal Kit Delivery Service",
+            "Url": "https://www.hellofresh.com/",
+            "Website": "https://www.hellofresh.com"
+          }
+        ]
+      },
+      {
+        "Website": "https://www.hello-products.com",
+        "result": [
+          {
+            "Title": "hello | naturally friendly products, vegan + never tested on ...",
+            "Url": "https://www.hello-products.com/",
+            "Website": "https://www.hello-products.com"
+          },
+          {
+            "Title": "hello | naturally friendly products, vegan + never tested on ...",
+            "Url": "https://www.hello-products.com/",
+            "Website": "https://www.hello-products.com"
+          }
+        ]
+      },
+      {
+        "Website": "https://en.wikipedia.org",
+        "result": [
+          {
+            "Title": "Hello (Adele song) - Wikipedia",
+            "Url": "https://en.wikipedia.org/wiki/Hello_(Adele_song)",
+            "Website": "https://en.wikipedia.org"
+          },
+          {
+            "Title": "Hello (Adele song) - Wikipedia",
+            "Url": "https://en.wikipedia.org/wiki/Hello_(Adele_song)",
+            "Website": "https://en.wikipedia.org"
+          },
+          {
+            "Title": "Hello - Wikipedia",
+            "Url": "https://en.wikipedia.org/wiki/Hello",
+            "Website": "https://en.wikipedia.org"
+          },
+          {
+            "Title": "Hello - Wikipedia",
+            "Url": "https://en.wikipedia.org/wiki/Hello",
+            "Website": "https://en.wikipedia.org"
+          }
+        ]
+      },
+      {
+        "Website": "https://hello.com",
+        "result": [
+          {
+            "Title": "hello network",
+            "Url": "https://hello.com/",
+            "Website": "https://hello.com"
+          },
+          {
+            "Title": "hello network",
+            "Url": "https://hello.com/",
+            "Website": "https://hello.com"
+          }
+        ]
+      },
+      {
+        "Website": "https://www.hellodesign.com",
+        "result": [
+          {
+            "Title": "Hello Design",
+            "Url": "https://www.hellodesign.com/",
+            "Website": "https://www.hellodesign.com"
+          },
+          {
+            "Title": "Hello Design",
+            "Url": "https://www.hellodesign.com/",
+            "Website": "https://www.hellodesign.com"
+          }
+        ]
+      }
+    ],
+    "Videos": [
+      {
+        "Website": "https://www.youtube.com",
+        "result": [
+          {
+            "DurationInSeconds": 300,
+            "Title": "Adele - Hello (Live at the NRJ Awards)",
+            "URL": "https://www.youtube.com/watch?v=DfG6VKnjrVw",
+            "Website": "https://www.youtube.com"
+          },
+          {
+            "DurationInSeconds": 300,
+            "Title": "Lionel Richie - Hello (Official Music Video)",
+            "URL": "https://www.youtube.com/watch?v=mHONNcZbwDY",
+            "Website": "https://www.youtube.com"
+          },
+          {
+            "DurationInSeconds": 240,
+            "Title": "Adele - Hello (Lyrics)",
+            "URL": "https://www.youtube.com/watch?v=be12BC5pQLE",
+            "Website": "https://www.youtube.com"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -139,6 +139,13 @@ const requestWithAxios = (searchString) => {
             final_json.result = final_result;
 
 
+            const result = JSON.stringify(final_json, null, 2);
+
+            fileSave(result, searchString);
+
+            console.log("====================================")
+
+            console.log(result)
 
 
 
