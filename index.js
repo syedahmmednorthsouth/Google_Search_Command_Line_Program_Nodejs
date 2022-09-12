@@ -1,5 +1,9 @@
+//import modules
 var cheerio = require("cheerio");
 var axios = require('axios');
+
+
+//import local modules
 var grouping = require('./util/grouping');
 const fileSave = require("./util/filesave");
 
@@ -11,12 +15,10 @@ const argsFromCmd = process.argv.slice(2)
 
 const searchString = argsFromCmd.toString().replaceAll(',', ' ')
 
+
+
 /* Search Query From argument */
-
-
 const requestWithAxios = (searchString) => {
-
-
 
     const AXIOS_OPTIONS = {
         headers: {
@@ -37,10 +39,15 @@ const requestWithAxios = (searchString) => {
 
             final_json.queryString = searchString;
 
+
+
+
             //decrlaring temporay variable to hold webpage , social media , 
+            let final_result = {}
             let webpages_temp = [];
             let social_media_temp = [];
             let videos_temp = [];
+
 
             //declaring counter variable
             let webpage_count = 0;
@@ -84,6 +91,56 @@ const requestWithAxios = (searchString) => {
                     }
                 }
             })
+
+
+            //Retrieve video  url , title and preprocess the data
+
+            $("video-voyager").each((i, el) => {
+                let durationInSeconds = $(el).find($(".ruktOc")).text().split(" ")[0] * 60;
+                let url = $(el).find("a").attr("href");
+                let title = $(el).find(".cHaqb").text();
+                let Website = $(el).find("a").attr("href").substring(0, 23);
+
+                let video_details = {
+                    DurationInSeconds: durationInSeconds,
+                    Title: title,
+                    URL: url,
+                    Website: Website
+
+                }
+                if (video_details) {
+                    video_count++;
+                }
+
+                videos_temp.push(video_details)
+            });
+
+
+            //Grouping Social Media
+            const groupSocialMedia = grouping(social_media_temp);
+            //Grouping webpages
+            const groupWebPages = grouping(webpages_temp);
+            //Grouping video
+            const group_videos = grouping(videos_temp);
+
+
+            //Adding count information to the result variable
+            final_json.PageOneResultCount = webpage_count + social_count + video_count;
+            final_json.PageOneVideoResutlCount = video_count;
+            final_json.pageOneSocialMediaCount = social_count;
+
+
+            //adding social webpage video information to the final result variable
+            final_result.Social_Media = groupSocialMedia;
+            final_result.Webpages = groupWebPages;
+            final_result.Videos = group_videos;
+
+
+            final_json.result = final_result;
+
+
+
+
 
 
 
