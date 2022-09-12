@@ -1,0 +1,16 @@
+{
+  "name": "google_search_command_line_program_nodjs",
+  "version": "1.0.0",
+  "description": "It is a program task assigned by Elo where a search query through command line with nodejs and shows first page result by json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "CommandLine",
+    "Google-Search"
+  ],
+  "author": "Syed Ahmmed",
+  "license": "ISC"
+}
