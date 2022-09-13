@@ -6,6 +6,7 @@ var axios = require('axios');
 //import local modules
 var grouping = require('./util/grouping');
 const fileSave = require("./util/filesave");
+const alphabetSort = require("./util/alphabetSort");
 
 
 
@@ -115,6 +116,10 @@ const requestWithAxios = (searchString) => {
                 videos_temp.push(video_details)
             });
 
+            // const alphabetSortWeb = alphabetSort(webpages_temp);
+            // const alphabetSortSocial = alphabetSort(social_media_temp);
+            // const alphabetSortVideo = alphabetSort(videos_temp);
+
 
             //Grouping Social Media
             const groupSocialMedia = grouping(social_media_temp);
@@ -122,6 +127,14 @@ const requestWithAxios = (searchString) => {
             const groupWebPages = grouping(webpages_temp);
             //Grouping video
             const group_videos = grouping(videos_temp);
+
+            //Grouping Web group alphabettically
+            const alphabetSortWeb = alphabetSort(groupWebPages);
+            const alphabetSortSocial = alphabetSort(groupSocialMedia);
+            const alphabetSortVideo = alphabetSort(group_videos);
+
+
+
 
 
             //Adding count information to the result variable
@@ -131,12 +144,14 @@ const requestWithAxios = (searchString) => {
 
 
             //adding social webpage video information to the final result variable
-            final_result.Social_Media = groupSocialMedia;
-            final_result.Webpages = groupWebPages;
-            final_result.Videos = group_videos;
+            final_result.Social_Media = alphabetSortSocial;
+            final_result.Webpages = alphabetSortWeb;
+            final_result.Videos = alphabetSortVideo;
 
 
             final_json.result = final_result;
+
+            final_json.result.Webpages;
 
 
             const result = JSON.stringify(final_json, null, 2);
@@ -154,8 +169,12 @@ const requestWithAxios = (searchString) => {
 
         })
         .catch((e) => {
-            console.log('google sometime block automated request . please try again after few moments . The error is ' + e)
 
+            if (e.response.status == '429') {
+                console.log("Google sometimes block automated request . Please try again for a few times within a few minutes");
+            } else {
+                console.log("The error is: " + e)
+            }
         });
 }
 
