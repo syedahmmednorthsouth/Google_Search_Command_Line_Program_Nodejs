@@ -1,4 +1,4 @@
-# Google_Search_Command_Line_Program_Nodjs
+# Google_Search_Command_Line_Program_Nodejs
 
 A command-line google search program made with  node.js
 
