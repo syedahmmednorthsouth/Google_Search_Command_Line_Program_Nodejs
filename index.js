@@ -149,9 +149,8 @@ const requestWithAxios = (searchString) => {
             final_result.Videos = alphabetSortVideo;
 
 
-            final_json.result = final_result;
+            final_json.results = final_result;
 
-            final_json.result.Webpages;
 
 
             const result = JSON.stringify(final_json, null, 2);
