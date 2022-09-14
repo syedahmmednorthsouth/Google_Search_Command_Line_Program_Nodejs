@@ -47,11 +47,11 @@ Media, Video):
   "PageOneResultCount": 18,
   "PageOneVideoResutlCount": 0,
   "pageOneSocialMediaCount": 4,
-  "result": {
+  "results": {
     "Social_Media": [
       {
         "Website": "https://www.facebook.com",
-        "result": [
+        "results": [
           {
             "Title": "ELO - Facebook",
             "URL": "https://www.facebook.com/elobyte",
@@ -66,7 +66,7 @@ Media, Video):
       },
       {
         "Website": "https://www.linkedin.com",
-        "result": [
+        "results": [
           {
             "Title": "Embedded Logic Operations (ELO) - LinkedIn",
             "URL": "https://www.linkedin.com/company/elobyte",
@@ -83,7 +83,7 @@ Media, Video):
     "Webpages": [
       {
         "Website": "https://elobyte.com",
-        "result": [
+        "results": [
           {
             "Title": "Elobyte",
             "Url": "https://elobyte.com/",
@@ -98,7 +98,7 @@ Media, Video):
       },
       {
         "Website": "https://medium.com",
-        "result": [
+        "results": [
           {
             "Title": "About elobyte-Software - Medium",
             "Url": "https://medium.com/elobyte-software/about",
@@ -123,14 +123,14 @@ Media, Video):
       },
       {
         "Website": "https://www.easyleadz.com",
-        "result": [
+        "results": [
           {
-            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - Easyleadz",
+            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - EasyLeadz",
             "Url": "https://www.easyleadz.com/people/aaqif-muhtasim",
             "Website": "https://www.easyleadz.com"
           },
           {
-            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - Easyleadz",
+            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - EasyLeadz",
             "Url": "https://www.easyleadz.com/people/aaqif-muhtasim",
             "Website": "https://www.easyleadz.com"
           }
@@ -138,7 +138,7 @@ Media, Video):
       },
       {
         "Website": "https://www.instagram.com",
-        "result": [
+        "results": [
           {
             "Title": "Ejike Okonkwo (@jikeokonkwo) • Instagram photos and videos",
             "Url": "https://www.instagram.com/jikeokonkwo/?hl=en",
@@ -153,7 +153,7 @@ Media, Video):
       },
       {
         "Website": "https://www.templatemonster.com",
-        "result": [
+        "results": [
           {
             "Title": "Elobyte - Electronics Store WooCommerce Theme",
             "Url": "https://www.templatemonster.com/woocommerce-themes/elobyte-electronics-store-woocommerce-theme-98026.html",
@@ -168,7 +168,7 @@ Media, Video):
       },
       {
         "Website": "https://www.zoominfo.com",
-        "result": [
+        "results": [
           {
             "Title": "Elo - Overview, News & Competitors | ZoomInfo.com",
             "Url": "https://www.zoominfo.com/c/elo/547136524",
