@@ -96,7 +96,9 @@ const requestWithAxios = (searchString) => {
             //Retrieve video  url , title and preprocess the data
 
             $("video-voyager").each((i, el) => {
-                let durationInSeconds = $(el).find($(".ruktOc")).text().split(" ")[0] * 60;
+                let minutes = $(el).find($(".ruktOc")).text().split(" ")[0] * 60;
+                let seconds = $(el).find($(".ruktOc")).text().split(" ")[2];
+                let durationInSeconds = parseInt(minutes) + parseInt(seconds);
                 let url = $(el).find("a").attr("href");
                 let title = $(el).find(".cHaqb").text();
                 let Website = $(el).find("a").attr("href").substring(0, 23);
