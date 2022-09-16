@@ -1,4 +1,4 @@
-# Google_Search_Command_Line_Program_Nodjs
+# Google_Search_Command_Line_Program_Nodejs
 
 A command-line google search program made with  node.js
 
@@ -47,35 +47,35 @@ Media, Video):
   "PageOneResultCount": 18,
   "PageOneVideoResutlCount": 0,
   "pageOneSocialMediaCount": 4,
-  "result": {
+  "results": {
     "Social_Media": [
       {
-        "Website": "https://www.linkedin.com",
-        "result": [
+        "Website": "https://www.facebook.com",
+        "results": [
           {
-            "Title": "Embedded Logic Operations (ELO) - LinkedIn",
-            "URL": "https://www.linkedin.com/company/elobyte",
-            "Website": "https://www.linkedin.com"
+            "Title": "ELO - Facebook",
+            "URL": "https://www.facebook.com/elobyte",
+            "Website": "https://www.facebook.com"
           },
           {
-            "Title": "Embedded Logic Operations (ELO) - LinkedIn",
-            "URL": "https://www.linkedin.com/company/elobyte",
-            "Website": "https://www.linkedin.com"
+            "Title": "ELO - Facebook",
+            "URL": "https://www.facebook.com/elobyte",
+            "Website": "https://www.facebook.com"
           }
         ]
       },
       {
-        "Website": "https://www.facebook.com",
-        "result": [
+        "Website": "https://www.linkedin.com",
+        "results": [
           {
-            "Title": "ELO - Facebook",
-            "URL": "https://www.facebook.com/elobyte",
-            "Website": "https://www.facebook.com"
+            "Title": "Embedded Logic Operations (ELO) - LinkedIn",
+            "URL": "https://www.linkedin.com/company/elobyte",
+            "Website": "https://www.linkedin.com"
           },
           {
-            "Title": "ELO - Facebook",
-            "URL": "https://www.facebook.com/elobyte",
-            "Website": "https://www.facebook.com"
+            "Title": "Embedded Logic Operations (ELO) - LinkedIn",
+            "URL": "https://www.linkedin.com/company/elobyte",
+            "Website": "https://www.linkedin.com"
           }
         ]
       }
@@ -83,7 +83,7 @@ Media, Video):
     "Webpages": [
       {
         "Website": "https://elobyte.com",
-        "result": [
+        "results": [
           {
             "Title": "Elobyte",
             "Url": "https://elobyte.com/",
@@ -98,7 +98,7 @@ Media, Video):
       },
       {
         "Website": "https://medium.com",
-        "result": [
+        "results": [
           {
             "Title": "About elobyte-Software - Medium",
             "Url": "https://medium.com/elobyte-software/about",
@@ -122,8 +122,38 @@ Media, Video):
         ]
       },
       {
+        "Website": "https://www.easyleadz.com",
+        "results": [
+          {
+            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - EasyLeadz",
+            "Url": "https://www.easyleadz.com/people/aaqif-muhtasim",
+            "Website": "https://www.easyleadz.com"
+          },
+          {
+            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - EasyLeadz",
+            "Url": "https://www.easyleadz.com/people/aaqif-muhtasim",
+            "Website": "https://www.easyleadz.com"
+          }
+        ]
+      },
+      {
+        "Website": "https://www.instagram.com",
+        "results": [
+          {
+            "Title": "Ejike Okonkwo (@jikeokonkwo) • Instagram photos and videos",
+            "Url": "https://www.instagram.com/jikeokonkwo/?hl=en",
+            "Website": "https://www.instagram.com"
+          },
+          {
+            "Title": "Ejike Okonkwo (@jikeokonkwo) • Instagram photos and videos",
+            "Url": "https://www.instagram.com/jikeokonkwo/?hl=en",
+            "Website": "https://www.instagram.com"
+          }
+        ]
+      },
+      {
         "Website": "https://www.templatemonster.com",
-        "result": [
+        "results": [
           {
             "Title": "Elobyte - Electronics Store WooCommerce Theme",
             "Url": "https://www.templatemonster.com/woocommerce-themes/elobyte-electronics-store-woocommerce-theme-98026.html",
@@ -138,7 +168,7 @@ Media, Video):
       },
       {
         "Website": "https://www.zoominfo.com",
-        "result": [
+        "results": [
           {
             "Title": "Elo - Overview, News & Competitors | ZoomInfo.com",
             "Url": "https://www.zoominfo.com/c/elo/547136524",
@@ -148,36 +178,6 @@ Media, Video):
             "Title": "Elo - Overview, News & Competitors | ZoomInfo.com",
             "Url": "https://www.zoominfo.com/c/elo/547136524",
             "Website": "https://www.zoominfo.com"
-          }
-        ]
-      },
-      {
-        "Website": "https://www.instagram.com",
-        "result": [
-          {
-            "Title": "Ejike Okonkwo (@jikeokonkwo) • Instagram photos and videos",
-            "Url": "https://www.instagram.com/jikeokonkwo/?hl=en",
-            "Website": "https://www.instagram.com"
-          },
-          {
-            "Title": "Ejike Okonkwo (@jikeokonkwo) • Instagram photos and videos",
-            "Url": "https://www.instagram.com/jikeokonkwo/?hl=en",
-            "Website": "https://www.instagram.com"
-          }
-        ]
-      },
-      {
-        "Website": "https://www.easyleadz.com",
-        "result": [
-          {
-            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - Easyleadz",
-            "Url": "https://www.easyleadz.com/people/aaqif-muhtasim",
-            "Website": "https://www.easyleadz.com"
-          },
-          {
-            "Title": "Aaqif Muhtasim - Embedded Logic Operations (elo) - Easyleadz",
-            "Url": "https://www.easyleadz.com/people/aaqif-muhtasim",
-            "Website": "https://www.easyleadz.com"
           }
         ]
       }
