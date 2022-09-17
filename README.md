@@ -27,13 +27,13 @@ Media, Video):
 2. Clone the  repo
 
 ``` cmd
-  $ git clone https://github.com/syedahmmednorthsouth/Google_Search_Command_Line_Program_Nodjs.git
+  $ git clone https://github.com/syedahmmednorthsouth/Google_Search_Command_Line_Program_Nodejs.git
 ```
 
 3. Change directory
 
 ``` cmd
-  $ cd Google_Search_Command_Line_Program_Nodjs
+  $ cd Google_Search_Command_Line_Program_Nodejs
 ```
 
 
