@@ -17,21 +17,27 @@ Each JSON file will also contain the list of responses grouped by category (Webs
 Media, Video):
 
 ## Installation
+1.Confirmation of installation of latest stable  Node version :
+```cmd
+  $ node -v
+  v16.17.0
 
-1. Clone the  repo
+```
+
+2. Clone the  repo
 
 ``` cmd
   $ git clone https://github.com/syedahmmednorthsouth/Google_Search_Command_Line_Program_Nodjs.git
 ```
 
 
-2. After changing directory to project root and install dependencies with npm
+3. After changing directory to project root and install dependencies with npm
 
 ``` cmd
   $ npm install 
 ```
 
-3. Search  Google by  query string  with the command line  like
+4. Search  Google by  query string  with the command line  like
 
 ``` cmd
   $ node index.js elobyte
