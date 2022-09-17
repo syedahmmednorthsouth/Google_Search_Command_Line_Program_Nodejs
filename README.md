@@ -30,14 +30,20 @@ Media, Video):
   $ git clone https://github.com/syedahmmednorthsouth/Google_Search_Command_Line_Program_Nodjs.git
 ```
 
+3. Change directory
 
-3. After changing directory to project root and install dependencies with npm
+``` cmd
+  $ cd Google_Search_Command_Line_Program_Nodjs
+```
+
+
+4. Install dependencies with npm
 
 ``` cmd
   $ npm install 
 ```
 
-4. Search  Google by  query string  with the command line  like
+5. Search  Google by  query string  with the command line  like
 
 ``` cmd
   $ node index.js elobyte
